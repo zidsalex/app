@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
 	<meta name="viewport" content="width=device-width">
-	<title>ʸ 𝗒 𐰭 — TV Indonesia</title>
+	<title>Apple Apps</title>
 	<link rel="shorcut icon" type="image/x-icon" href="https://i-8.soko.eu.org/fv/fv.ico">
   <link rel="icon" type="image/x-icon" href="https://i-8.soko.eu.org/fv/fv.ico"/>
   
@@ -33,19 +33,8 @@
 </head>
 
 <body>
-  <table class='th1'>  
-    <tr> 
-      <th><h1>🗡️🐊🐍🏺</h1></th>
-      <th><h2>ꦪꦸꦒ</h2></th>
-      <th><h2>ꦄꦣꦶꦤꦠ</h2></th>
-    </tr>
-  </table>
-  <table class='th2'>
-    <tr>  
-      <th><img src="https://i-8.soko.eu.org/fv/fv.ico" alt="home" style="height:40px;"></a></th>
-    </tr>
-  </table>
-  <br><br><br><br><br><br><br><br><br>
+  
+  <br><br><br><br>
   
   <!-- CONTENT -->
 
@@ -158,15 +147,24 @@
                       
                     </tr>
                    </table>
+  
+  <table align="center" class="dock">
+    <tr> 
+      <th><a href="https://tv.apple.com" target="blank" style="text-decoration:none">
+          <img src="https://i-8.soko.eu.org/apple/tv.webp" width="50"></a></th>
+      <th><a href="https://www.icloud.com/contacts" target="blank" style="text-decoration:none">
+          <img src="https://i-8.soko.eu.org/apple/contacts.webp" width="50"></a></th>
+      <th><a href="https://www.icloud.com/mail" target="blank" style="text-decoration:none">
+          <img src="https://i-8.soko.eu.org/apple/mail.webp" width="50"></a></th>
+      <th><a href="https://music.apple.com" target="blank" style="text-decoration:none">
+          <img src="https://i-8.soko.eu.org/apple/music.webp" width="50"></a></th>
+    </tr>
+  </table>
 
   <!-- CONTENT -->
   
   <br><br><br><br><br><br><br>
-  <table class='foot'>
-    <tr>
-      <th><h3>Chess</h3></th>
-    </tr>
-  </table>
+  
   <table class='social'>
     <tr>
       <th><a href="/" target="blank">
@@ -189,11 +187,24 @@
       padding: 20;
       margin: auto;
     background-color: #EBE0D4;
+    background-image: url('https://i-8.soko.eu.org/wallpaper.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
     font-size: 12px;
       color: #4b4b4b;
       font-family: 'arial';
   }
   a:link {
+    color: black;
+  }
+  a:visited {
+    color: black;
+  }
+  a:hover {
+    color: black;
+  }
+  a:active {
     color: black;
   }
   iframe {
@@ -212,22 +223,26 @@
       top: -6px;
   }
   .th2 {
-    background-image: linear-gradient(rgb(202, 130, 87),rgb(202, 130, 87),rgb(202, 130, 87, 0.8), rgb(202, 130, 87, 0.6));
-    backdrop-filter: blur(5px);
+    background-color: rgba(37,38,40,.21);
+    background-image: radial-gradient(circle at 25%,hsla(0,0%,100%,.2),rgba(50,50,50,.2) 80%);
+    backdrop-filter: blur(14px);
     position: fixed;
     align: center;
       top: 60px;
       width:300px;
     border:5px;
-    border-style: ridge;
+    border-radius: 16px;
     border-color: #D3D3D3;
   }
   .social {
   position: fixed;
   padding-right: 15px;
-  background-color: #EBE0D4;
-      bottom: 0px;
-      width:300px;
+  border:5px;
+    border-radius: 16px;
+    background-color: hsla(0,0%,100%,.3);
+    backdrop-filter: blur(15px) saturate(86%);
+    width:300px;
+      top: 0px;
   }
   .foot {
   position: fixed;
@@ -254,6 +269,26 @@
     background-color: hsla(0,0%,100%,.3);
     backdrop-filter: blur(15px) saturate(86%);
     position: static;
+  }
+  #img th {
+  padding-bottom: 10px;
+  padding-top: 10px;
+  }
+  .dock {
+    border:5px;
+    border-radius: 16px;
+    background-color: hsla(0,0%,100%,.3);
+    backdrop-filter: blur(15px) saturate(86%);
+    position: fixed;
+      bottom: 0px;
+      width:300px;
+      height: 80px;
+  }
+  .dock img {
+    background-color: white;
+    border-top-left-radius: inherit;
+    border-top-right-radius: inherit;
+    border-radius: 12px;
   }
   .ig-ig:hover {
     background-image: url("https://i-8.soko.eu.org/sc/ig-hv.svg");
