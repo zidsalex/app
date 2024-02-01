@@ -241,11 +241,20 @@
       border-style: ridge;
       border-color: #D3D3D3;
   }
+  #img img {
+    background-color: white;
+    border-top-left-radius: inherit;
+    border-top-right-radius: inherit;
+    border-radius: 12px;
+  }  
   #img {
-      border:5px;
-      border-style: ridge;
-      border-color: #D3D3D3;
-    }
+    border:5px;
+    margin-bottom: 15px;
+    border-radius: 16px;
+    background-color: hsla(0,0%,100%,.3);
+    backdrop-filter: blur(15px) saturate(86%);
+    position: static;
+  }
   .ig-ig:hover {
     background-image: url("https://i-8.soko.eu.org/sc/ig-hv.svg");
     opacity: 1;
